@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Smart Label</title>
+    <link href="favicon.ico" rel="icon" type="image/x-icon">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body ng-controller="ctrl">
+<nav class="navbar navbar-default navbar-static-top">
+  <div class="container">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="">Smart Label</a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+          <li><a href="#">主页</a></li>
+          <li><a href="#">预览</a></li>
+          <li><a href="#">标记</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <circle cx="100" cy="50" ng-attr-r="{{radius}}" stroke="black" stroke-width="2" fill="red" />
+    </svg>
+</div>
+
+<script src="./js/jquery/jquery-3.3.1.min.js"></script>
+<script src="./js/bootstrap/bootstrap.min.js"></script>
+<script src="./js/angular/angular.min.js"></script>
+<script src="./js/angular/angular-animate.min.js"></script>
+<script src="./js/angular/angular-route.min.js"></script>
+<script src="./js/index.js"></script>
+</body>
+</html>
